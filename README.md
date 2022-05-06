@@ -20,7 +20,7 @@ Este modelo simples de lista de tarefas é usado para acompanhar o progresso dos
 
 ### Módulo II - HTML/CSS3
 
-- [ ] Primeiros passos para desenvolvimento web
+- [x] Primeiros passos para desenvolvimento web
 - [ ] Introdução a criação de websites com HTML5 e CSS3
 - [ ] Posicionando elementos com Flexbox em CSS
 - [ ] Recriando a página inicial do Instagram
@@ -67,6 +67,14 @@ Este modelo simples de lista de tarefas é usado para acompanhar o progresso dos
 - [ ] Explorando o Estilo Arquitetural REST com Node.js
 - [ ] Node.js com Bancos de Dados Relacionais (SQL)
 - [ ] Construindo Encurtador de URL
+
+## Visualização de entregas
+
+### Módulo II - HTML/CSS3
+
+**Primeiros passos para desenvolvimento web**
+
+<img src="documentation/assets/screenshots/screenshot-localhost-2022.05.06-14_18_35.png">
 
 ## Extras
 
