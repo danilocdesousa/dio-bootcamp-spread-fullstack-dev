@@ -21,7 +21,7 @@ Este modelo simples de lista de tarefas é usado para acompanhar o progresso dos
 ### Módulo II - HTML/CSS3
 
 - [x] Primeiros passos para desenvolvimento web
-- [ ] Introdução a criação de websites com HTML5 e CSS3
+- [x] Introdução a criação de websites com HTML5 e CSS3
 - [ ] Posicionando elementos com Flexbox em CSS
 - [ ] Recriando a página inicial do Instagram
 
@@ -74,7 +74,11 @@ Este modelo simples de lista de tarefas é usado para acompanhar o progresso dos
 
 **Primeiros passos para desenvolvimento web**
 
-<img src="documentation/assets/screenshots/screenshot-localhost-2022.05.06-14_18_35.png">
+<img src="documentation/assets/screenshots/screenshot-localhost-2022.05.06-14_18_35.png" alt="Captura de tela com um exemplo de jQuery Accordion">
+
+**Introdução a criação de websites com HTML5 e CSS3**
+
+<img src="documentation/assets/screenshots/screenshot-127.0.0.1_5500-2022.05.10-20_50_57.png" alt="Captura de tela do blog feito com HTML e CSS">
 
 ## Extras
 
