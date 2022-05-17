@@ -2,6 +2,8 @@
 
 Repositório para organizar os estudos e projetos realizados no Bootcamp Spread Fullstack Developer.
 
+<img src="documentation/assets/screenshots/screenshot-127.0.0.1_5500-2022.05.17-19_22_14.png" alt="Capa do projeto com o símbolo Spread Fullstack Developer">
+
 ## Sobre
 
 O Bootcamp Spread Fullstack Developer é um programa gratuito para pessoas desenvolvedoras que querem começar sua jornada em desenvolvimento de software com uma base sólida em tecnologias essenciais em front-end quanto e back-end.
