@@ -7,24 +7,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body {
-            background-color: black;
-            margin: 0;
-        }
-
         .flex-container {
             display: flex;
+            max-width: 400px;
+            border: 2px solid gray;
+            height: 400px;
+        }
+
+        .item {
+            background-color: gray;
+            color: white;
+            margin: 5px;
+            text-align: center;
+        }
+
+        .center {
             align-items: center;
             justify-content: center;
-            height: 100vh;
+        }
+
+        .center .item {
+            flex: 0;
         }
     </style>
 </head>
 
 <body>
-    <div class="flex-container">
-        <div><img width="400px" src="/documentation/assets/images/a0fb3b13-3dd0-495e-8f07-77cc1a85991f.png"
-                alt="Símbolo do Spread Fullstack Developer"></div>
+    <p>Item centralizado na tela</p>
+    <div class="flex-container center">
+        <div class="item">Nihil corporis dolorum nulla nam maxime ullam in modi laboriosam non, distinctio ipsa odio
+            impedit incidunt odit beatae fuga?</div>
     </div>
 </body>
 
