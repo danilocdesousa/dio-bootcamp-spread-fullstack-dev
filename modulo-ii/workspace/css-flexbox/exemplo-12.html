@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container {
+            display: flex;
+            max-width: 400px;
+            border: 2px solid gray;
+        }
+
+        .item {
+            background-color: gray;
+            color: white;
+            margin: 5px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .align-items-center {
+            align-items: center;
+        }
+
+        .align-self-auto {
+            align-self: auto;
+        }
+
+        .align-self-center {
+            align-self: center;
+        }
+
+        .align-self-flex-start {
+            align-self: flex-start;
+        }
+
+        .align-self-flex-end {
+            align-self: flex-end;
+        }
+
+        .align-self-baseline {
+            align-self: baseline;
+        }
+
+        .align-self-stretch {
+            align-self: stretch;
+        }
+    </style>
+</head>
+
+<body>
+    <p>align-items: center; align-self: mix;</p>
+    <div class="flex-container align-items-center">
+        <div class="item align-self-auto">Sed expedita assumenda laborum.</div>
+        <div class="item align-self-stretch">1</div>
+        <div class="item align-self-auto">12</div>
+        <div class="item align-self-auto">123</div>
+    </div>
+
+    <p>align-self: mix;</p>
+    <div class="flex-container">
+        <div class="item align-self-auto">Sed expedita assumenda laborum.</div>
+        <div class="item align-self-center">1</div>
+        <div class="item align-self-flex-start">12</div>
+        <div class="item align-self-flex-end">123</div>
+    </div>
+
+    <p>align-self: mix;</p>
+    <div class="flex-container">
+        <div class="item align-self-flex-end">12345</div>
+        <div class="item align-self-center">12</div>
+        <div class="item align-self-flex-start">123456789</div>
+        <div class="item align-self-flex-start">Ut architecto, in aliquam quo magni repellat!</div>
+    </div>
+
+    <p>align-self: mix;</p>
+    <div class="flex-container">
+        <div class="item align-self-flex-end">12345</div>
+        <div class="item align-self-center">12</div>
+        <div class="item align-self-flex-start">123456789</div>
+        <div class="item align-self-flex-start">Ut architecto</div>
+    </div>
+</body>
+
+</html>

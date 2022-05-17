@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container {
+            display: flex;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            border: 2px solid gray;
+        }
+
+        .flex-item {
+            background-color: gray;
+            color: white;
+            margin: 5px;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .row {
+            flex-direction: row;
+        }
+
+        .row-reverse {
+            flex-direction: row-reverse;
+        }
+
+        .column {
+            float: left;
+            flex-direction: column;
+        }
+
+        .column-reverse {
+            float: right;
+            flex-direction: column-reverse;
+        }
+    </style>
+</head>
+
+<body>
+    <p>flex-direction: row;</p>
+    <ul class="flex-container row">
+        <li class="flex-item">1</li>
+        <li class="flex-item">2</li>
+        <li class="flex-item">3</li>
+    </ul>
+
+    <p>flex-direction: row-reverse;</p>
+    <ul class="flex-container row-reverse">
+        <li class="flex-item">1</li>
+        <li class="flex-item">2</li>
+        <li class="flex-item">3</li>
+    </ul>
+
+    <p>float: left; flex-direction: column</p>
+    <p> float: right; flex-direction: column-reverse</p>
+    <ul class="flex-container column">
+        <li class="flex-item">1</li>
+        <li class="flex-item">2</li>
+        <li class="flex-item">3</li>
+    </ul>
+
+    <ul class="flex-container column-reverse">
+        <li class="flex-item">1</li>
+        <li class="flex-item">2</li>
+        <li class="flex-item">3</li>
+    </ul>
+
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container {
+            display: flex;
+            max-width: 300px;
+            height: 300px;
+            border: 2px solid gray;
+        }
+
+        .item {
+            background-color: gray;
+            color: white;
+            margin: 5px;
+            line-height: 50px;
+            text-align: center;
+            font-size: 24px;
+
+        }
+
+        .flex-start {
+            justify-content: flex-start;
+        }
+
+        .flex-end {
+            justify-content: flex-end;
+        }
+
+        .center {
+            justify-content: center;
+        }
+
+        .space-between {
+            justify-content: space-between;
+        }
+
+        .space-around {
+            justify-content: space-around;
+        }
+
+        .space-evenly {
+            justify-content: space-evenly;
+        }
+
+        .colum {
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+    <p>justify-content: flex-start; flex-direction: column</p>
+    <div class="flex-container flex-start colum">
+        <div class="item">1</div>
+        <div class="item">23</div>
+        <div class="item">456</div>
+        <div class="item">7890</div>
+    </div>
+
+    <p>justify-content: flex-end; flex-direction: column</p>
+    <div class="flex-container flex-end colum">
+        <div class="item">1</div>
+        <div class="item">23</div>
+        <div class="item">456</div>
+        <div class="item">7890</div>
+    </div>
+
+    <p>justify-content: center; flex-direction: column</p>
+    <div class="flex-container center colum">
+        <div class="item">1</div>
+        <div class="item">23</div>
+        <div class="item">456</div>
+        <div class="item">7890</div>
+    </div>
+
+    <p>justify-content: space-between; flex-direction: column</p>
+    <div class="flex-container space-between colum">
+        <div class="item">1</div>
+        <div class="item">23</div>
+        <div class="item">456</div>
+        <div class="item">7890</div>
+    </div>
+
+    <p>justify-content: space-around; flex-direction: column</p>
+    <div class="flex-container space-around colum">
+        <div class="item">1</div>
+        <div class="item">23</div>
+        <div class="item">456</div>
+        <div class="item">7890</div>
+    </div>
+
+    <p>justify-content: space-evenly; flex-direction: column</p>
+    <div class="flex-container space-evenly colum">
+        <div class="item">1</div>
+        <div class="item">23</div>
+        <div class="item">456</div>
+        <div class="item">7890</div>
+    </div>
+</body>
+
+</html>

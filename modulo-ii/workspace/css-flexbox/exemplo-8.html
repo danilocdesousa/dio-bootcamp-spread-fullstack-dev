@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container {
+            display: flex;
+            max-width: 700px;
+            border: 2px solid gray;
+            /*justify-content: center;*/
+        }
+
+        .item {
+            background-color: gray;
+            color: white;
+            margin: 5px;
+            min-width: 50px;
+            line-height: 50px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .flex-basis-auto {
+            flex-basis: auto;
+        }
+
+        .flex-basis-0 {
+            flex-basis: 0;
+        }
+
+        .flex-basis-100px {
+            flex-basis: 100px;
+        }
+
+        .flex-grow-0 {
+            flex-grow: 0;
+        }
+
+        .flex-grow-1 {
+            flex-grow: 1;
+        }
+
+        .flex-grow-2 {
+            flex-grow: 2;
+        }
+
+        .flex-grow-3 {
+            flex-grow: 3;
+        }
+    </style>
+</head>
+
+<body>
+    <p>flex-basis: auto; flex-grow: 0;</p>
+    <div class="flex-container">
+        <div class="item flex-basis-auto flex-grow-0">22</div>
+        <div class="item flex-basis-auto flex-grow-0">1</div>
+        <div class="item flex-basis-auto flex-grow-0">333</div>
+        <div class="item flex-basis-auto flex-grow-0">4444</div>
+    </div>
+
+    <p>flex-basis: auto; flex-grow: 1;</p>
+    <div class="flex-container">
+        <div class="item flex-basis-auto flex-grow-1">1</div>
+        <div class="item flex-basis-auto flex-grow-1">22</div>
+        <div class="item flex-basis-auto flex-grow-1">333</div>
+        <div class="item flex-basis-auto flex-grow-1">4444</div>
+    </div>
+
+    <p>flex-basis: auto; flex-grow: mix</p>
+    <div class="flex-container">
+        <div class="item flex-basis-auto flex-grow-1">1</div>
+        <div class="item flex-basis-auto flex-grow-1">22</div>
+        <div class="item flex-basis-auto flex-grow-1">333</div>
+        <div class="item flex-basis-auto flex-grow-2">4444</div>
+    </div>
+
+    <p>flex-basis: 0; flex-grow: mix</p>
+    <div class="flex-container">
+        <div class="item flex-basis-0 flex-grow-1">1</div>
+        <div class="item flex-basis-0 flex-grow-1">22</div>
+        <div class="item flex-basis-0 flex-grow-1">333</div>
+        <div class="item flex-basis-0 flex-grow-2">4444</div>
+    </div>
+
+    <p>flex-basis: 100px;</p>
+    <div class="flex-container">
+        <div class="item flex-basis-100px">1</div>
+        <div class="item flex-basis-100px">22</div>
+        <div class="item flex-basis-100px">333</div>
+        <div class="item flex-basis-100px">4444</div>
+    </div>
+
+    <p>flex-basis: 100px; flex-grow: 0;</p>
+    <div class="flex-container">
+        <div class="item flex-basis-100px flex-grow-0">1</div>
+        <div class="item flex-basis-100px flex-grow-0">22</div>
+        <div class="item flex-basis-100px flex-grow-0">333</div>
+        <div class="item flex-basis-100px flex-grow-0">4444</div>
+    </div>
+
+    <p>flex-basis: 100px; flex-grow: 1;</p>
+    <div class="flex-container">
+        <div class="item flex-basis-100px flex-grow-1">1</div>
+        <div class="item flex-basis-100px flex-grow-1">22</div>
+        <div class="item flex-basis-100px flex-grow-1">333 333 333 333</div>
+        <div class="item flex-basis-100px flex-grow-1">4444</div>
+    </div>
+
+    <p>flex-basis: 100px; flex-grow: mix;</p>
+    <div class="flex-container">
+        <div class="item flex-basis-100px flex-grow-1">1</div>
+        <div class="item flex-basis-100px flex-grow-1">22</div>
+        <div class="item flex-basis-100px flex-grow-1">333 333 333 333</div>
+        <div class="item flex-basis-100px flex-grow-2">4444</div>
+    </div>
+</body>
+
+</html>

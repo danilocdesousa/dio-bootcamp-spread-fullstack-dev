@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 400px;
+            height: 300px;
+            border: 2px solid gray;
+        }
+
+        .item {
+            background-color: gray;
+            color: white;
+            margin: 5px;
+            text-align: center;
+            flex: 1;
+        }
+
+        .stretch {
+            align-content: stretch;
+        }
+
+        .center {
+            align-content: center;
+        }
+
+        .flex-start {
+            align-content: flex-start;
+        }
+
+        .flex-end {
+            align-content: flex-end;
+        }
+
+        .space-around {
+            align-content: space-around;
+        }
+
+        .space-between {
+            align-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <p>align-content: stretch;</p>
+    <div class="flex-container stretch">
+        <div class="item">Commodi tempora non error repellat!</div>
+        <div class="item">Tempora officiis temporibus in praesentium ratione libero eveniet harum esse optio id.</div>
+        <div class="item">Quod aliquam possimus voluptates reprehenderit eius!</div>
+        <div class="item">Commodi tempora non error repellat!</div>
+        <div class="item">Quae facilis voluptate vero numquam perferendis.</div>
+        <div class="item">Nihil, placeat fugit corrupti quod deleniti dicta omnis.</div>
+    </div>
+
+    <p>align-content: center;</p>
+    <div class="flex-container center">
+        <div class="item">Commodi tempora non error repellat!</div>
+        <div class="item">Tempora officiis temporibus in praesentium ratione libero eveniet harum esse optio id.</div>
+        <div class="item">Quod aliquam possimus voluptates reprehenderit eius!</div>
+        <div class="item">Commodi tempora non error repellat!</div>
+        <div class="item">Quae facilis voluptate vero numquam perferendis.</div>
+        <div class="item">Nihil, placeat fugit corrupti quod deleniti dicta omnis.</div>
+    </div>
+
+    <p>align-content: flex-start;</p>
+    <div class="flex-container flex-start">
+        <div class="item">Commodi tempora non error repellat!</div>
+        <div class="item">Tempora officiis temporibus in praesentium ratione libero eveniet harum esse optio id.</div>
+        <div class="item">Quod aliquam possimus voluptates reprehenderit eius!</div>
+        <div class="item">Commodi tempora non error repellat!</div>
+        <div class="item">Quae facilis voluptate vero numquam perferendis.</div>
+        <div class="item">Nihil, placeat fugit corrupti quod deleniti dicta omnis.</div>
+    </div>
+
+    <p>align-content: flex-end;</p>
+    <div class="flex-container flex-end">
+        <div class="item">Commodi tempora non error repellat!</div>
+        <div class="item">Tempora officiis temporibus in praesentium ratione libero eveniet harum esse optio id.</div>
+        <div class="item">Quod aliquam possimus voluptates reprehenderit eius!</div>
+        <div class="item">Commodi tempora non error repellat!</div>
+        <div class="item">Quae facilis voluptate vero numquam perferendis.</div>
+        <div class="item">Nihil, placeat fugit corrupti quod deleniti dicta omnis.</div>
+    </div>
+
+    <p> align-content: space-around;</p>
+    <div class="flex-container space-around">
+        <div class="item">Commodi tempora non error repellat!</div>
+        <div class="item">Tempora officiis temporibus in praesentium ratione libero eveniet harum esse optio id.</div>
+        <div class="item">Quod aliquam possimus voluptates reprehenderit eius!</div>
+        <div class="item">Commodi tempora non error repellat!</div>
+        <div class="item">Quae facilis voluptate vero numquam perferendis.</div>
+        <div class="item">Nihil, placeat fugit corrupti quod deleniti dicta omnis.</div>
+    </div>
+
+    <p> align-content: space-between;</p>
+    <div class="flex-container space-between">
+        <div class="item">Commodi tempora non error repellat!</div>
+        <div class="item">Tempora officiis temporibus in praesentium ratione libero eveniet harum esse optio id.</div>
+        <div class="item">Quod aliquam possimus voluptates reprehenderit eius!</div>
+        <div class="item">Commodi tempora non error repellat!</div>
+        <div class="item">Quae facilis voluptate vero numquam perferendis.</div>
+        <div class="item">Nihil, placeat fugit corrupti quod deleniti dicta omnis.</div>
+    </div>
+</body>
+
+</html>

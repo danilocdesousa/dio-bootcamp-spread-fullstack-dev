@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container {
+            display: flex;
+            max-width: 400px;
+            border: 2px solid gray;
+        }
+
+        .item {
+            background-color: gray;
+            color: white;
+            margin: 5px;
+            line-height: 50px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .flex-1 {
+            flex: 1;
+            /* Equivale a flex-grow: 1; flex-shrink: 1; flex-basis: 0; */
+        }
+
+        .flex-2 {
+            flex: 2;
+            /* Equivale a flex-grow: 2; flex-shrink: 1; flex-basis: 0; */
+        }
+
+        .width-150px {
+            width: 150px;
+        }
+
+        .min-width-150px {
+            min-width: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>flex: 1;</p>
+    <div class="flex-container">
+        <div class="item flex-1">1</div>
+        <div class="item flex-1">123</div>
+        <div class="item flex-1">12</div>
+        <div class="item flex-1">123</div>
+    </div>
+
+    <p>flex: mix;</p>
+    <div class="flex-container">
+        <div class="item flex-1">1</div>
+        <div class="item flex-2">123</div>
+        <div class="item flex-2">12</div>
+        <div class="item flex-1">123</div>
+    </div>
+
+    <p>width-150px: 150px; (flex-basis: 0)</p>
+    <div class="flex-container">
+        <div class="item flex-1 width-150px">1</div>
+        <div class="item flex-1 width-150px">123</div>
+        <div class="item flex-1 width-150px">12</div>
+        <div class="item flex-1 width-150px">123</div>
+    </div>
+
+    <p>min-width-150px: 150px; (flex-basis: 0)</p>
+    <div class="flex-container">
+        <div class="item flex-1 min-width-150px">1</div>
+        <div class="item flex-1 min-width-150px">123</div>
+        <div class="item flex-1 min-width-150px">12</div>
+        <div class="item flex-1 min-width-150px">123</div>
+    </div>
+</body>
+
+</html>

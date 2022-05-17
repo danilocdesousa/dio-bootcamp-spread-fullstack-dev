@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container {
+            display: flex;
+            max-width: 300px;
+            border: 2px solid gray;
+        }
+
+        .item {
+            background-color: gray;
+            color: white;
+            margin: 5px;
+            line-height: 50px;
+            text-align: center;
+            font-size: 24px;
+            height: 50px;
+        }
+
+        .flex-start {
+            justify-content: flex-start;
+        }
+
+        .flex-end {
+            justify-content: flex-end;
+        }
+
+        .center {
+            justify-content: center;
+        }
+
+        .space-between {
+            justify-content: space-between;
+        }
+
+        .space-arround {
+            justify-content: space-around;
+        }
+
+        .space-evenly {
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+
+<body>
+    <p>justify-content: flex-start;</p>
+    <div class="flex-container flex-start">
+        <div class="item">1</div>
+        <div class="item">23</div>
+        <div class="item">456</div>
+        <div class="item">7890</div>
+    </div>
+
+    <p>justify-content: flex-end;</p>
+    <div class="flex-container flex-end">
+        <div class="item">1</div>
+        <div class="item">23</div>
+        <div class="item">456</div>
+        <div class="item">7890</div>
+    </div>
+
+    <p>justify-content: center;</p>
+    <div class="flex-container center">
+        <div class="item">1</div>
+        <div class="item">23</div>
+        <div class="item">456</div>
+        <div class="item">7890</div>
+    </div>
+
+    <p>justify-content: space-between;</p>
+    <div class="flex-container space-between">
+        <div class="item">1</div>
+        <div class="item">23</div>
+        <div class="item">456</div>
+        <div class="item">7890</div>
+    </div>
+
+    <p>justify-content: space-around;</p>
+    <div class="flex-container space-arround">
+        <div class="item">1</div>
+        <div class="item">23</div>
+        <div class="item">456</div>
+        <div class="item">7890</div>
+    </div>
+
+    <p>justify-content: space-evenly;</p>
+    <div class="flex-container space-evenly">
+        <div class="item">1</div>
+        <div class="item">23</div>
+        <div class="item">456</div>
+        <div class="item">7890</div>
+    </div>
+</body>
+
+</html>

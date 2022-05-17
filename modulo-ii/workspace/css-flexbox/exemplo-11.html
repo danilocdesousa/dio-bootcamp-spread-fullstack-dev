@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container {
+            display: flex;
+            max-width: 400px;
+            border: 2px solid gray;
+        }
+
+        .item {
+            flex: 1;
+            /* Equivale a flex-grow: 1; flex-shrink: 1; flex-basis: 0; */
+            background-color: gray;
+            color: white;
+            margin: 5px;
+            line-height: 50px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .order-0 {
+            order: 0;
+        }
+
+        .order-1 {
+            order: 1;
+        }
+
+        .order--1 {
+            order: -1;
+        }
+
+        .order-2 {
+            order: 2;
+        }
+
+        .order-3 {
+            order: 3;
+        }
+
+        .flex-direction {
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+    <p>order: 0;</p>
+    <div class="flex-container">
+        <div class="item order-0">1</div>
+        <div class="item order-0">2</div>
+        <div class="item order-0">3</div>
+        <div class="item order-0">4</div>
+    </div>
+
+    <p>order: mix;</p>
+    <div class="flex-container">
+        <div class="item order-2">1</div>
+        <div class="item order-1">2</div>
+        <div class="item order-1">3</div>
+        <div class="item order-3">4</div>
+    </div>
+
+    <p>order: mix; flex-direction: column;</p>
+    <div class="flex-container flex-direction">
+        <div class="item order-2">1</div>
+        <div class="item order-1">2</div>
+        <div class="item order-1">3</div>
+        <div class="item order-3">4</div>
+    </div>
+
+    <p>order: mix; flex-direction: column;</p>
+    <div class="flex-container flex-direction">
+        <div class="item order-1">1</div>
+        <div class="item order-1">2</div>
+        <div class="item order-1">3</div>
+        <div class="item order--1">4</div>
+    </div>
+</body>
+
+</html>
