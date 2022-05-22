@@ -8,6 +8,22 @@ Repositório para organizar os estudos e projetos realizados no Bootcamp Spread 
 
 O Bootcamp Spread Fullstack Developer é um programa gratuito para pessoas desenvolvedoras que querem começar sua jornada em desenvolvimento de software com uma base sólida em tecnologias essenciais em front-end quanto e back-end.
 
+## Visualização de entregas
+
+### Módulo II - HTML/CSS3
+
+**Primeiros passos para desenvolvimento web**
+
+<img src="documentation/assets/screenshots/screenshot-localhost-2022.05.06-14_18_35.png" alt="Captura de tela com um exemplo de jQuery Accordion">
+
+**Introdução a criação de websites com HTML5 e CSS3**
+
+<img src="documentation/assets/screenshots/screenshot-127.0.0.1_5500-2022.05.10-20_50_57.png" alt="Captura de tela do blog feito com HTML e CSS">
+
+**Posicionando elementos com Flexbox em CSS**
+
+<img src="documentation/assets/screenshots/screenshot-127.0.0.1_5500-2022.05.22-02_50_21.png" alt="Captura de tela da página web com CSS Flexbox">
+
 ## Roteiro
 
 Este modelo simples de lista de tarefas é usado para acompanhar o progresso dos estudos.
@@ -69,21 +85,6 @@ Este modelo simples de lista de tarefas é usado para acompanhar o progresso dos
 - [ ] Explorando o Estilo Arquitetural REST com Node.js
 - [ ] Node.js com Bancos de Dados Relacionais (SQL)
 - [ ] Construindo Encurtador de URL
-
-## Visualização de entregas
-
-### Módulo II - HTML/CSS3
-
-**Primeiros passos para desenvolvimento web**
-
-<img src="documentation/assets/screenshots/screenshot-localhost-2022.05.06-14_18_35.png" alt="Captura de tela com um exemplo de jQuery Accordion">
-
-**Introdução a criação de websites com HTML5 e CSS3**
-
-<img src="documentation/assets/screenshots/screenshot-127.0.0.1_5500-2022.05.10-20_50_57.png" alt="Captura de tela do blog feito com HTML e CSS">
-
-**Posicionando elementos com Flexbox em CSS**
-<img src="documentation/assets/screenshots/screenshot-127.0.0.1_5500-2022.05.22-02_50_21.png" alt="Captura de tela da página web com CSS Flexbox">
 
 ## Extras
 
