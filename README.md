@@ -24,6 +24,10 @@ O Bootcamp Spread Fullstack Developer é um programa gratuito para pessoas desen
 
 <img src="documentation/assets/screenshots/screenshot-127.0.0.1_5500-2022.05.22-02_50_21.png" alt="Captura de tela da página web com CSS Flexbox">
 
+**Recriando a página inicial do Instagram**
+
+<img src="documentation/assets/screenshots/screenshot-127.0.0.1_5500-2022.05.25-02_23_24.png" alt="Captura de tela mostrando a página inicial recriada do Instagram">
+
 ## Roteiro
 
 Este modelo simples de lista de tarefas é usado para acompanhar o progresso dos estudos.
@@ -41,7 +45,7 @@ Este modelo simples de lista de tarefas é usado para acompanhar o progresso dos
 - [x] Primeiros passos para desenvolvimento web
 - [x] Introdução a criação de websites com HTML5 e CSS3
 - [x] Posicionando elementos com Flexbox em CSS
-- [ ] Recriando a página inicial do Instagram
+- [x] Recriando a página inicial do Instagram
 
 ### Módulo III - Javascript
 
