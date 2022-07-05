@@ -49,9 +49,9 @@ Este modelo simples de lista de tarefas é usado para acompanhar o progresso dos
 
 ### Módulo III - Javascript
 
-- [ ] Introdução ao JavaScript
-- [ ] Sintaxe e Operadores
-- [ ] Variáveis e Tipos
+- [x] Introdução ao JavaScript
+- [x] Sintaxe e Operadores
+- [x] Variáveis e Tipos
 - [ ] Funções
 - [ ] Coleções
 - [ ] Map, Filter e Reduce

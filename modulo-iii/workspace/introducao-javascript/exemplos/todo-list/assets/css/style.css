@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+}
+
+body {
+    color: #999;
+    font-size: 1rem;
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #191919;
+}
+
+.tasks {
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-align {
+    align-items: center;
+    justify-content: center;
+}
+
+.min-size {
+    min-width: 200px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.input-field {
+    height: 50px;
+    width: 300px;
+    border-radius: 4px;
+    border-style: none;
+    background-color: #f1f1f1;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+button {
+    border-style: none;
+    background-color: #3f3f3f;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #383838;
+}
+
+.p-button {
+    padding: 11.5px 20px;
+}
+
+.ml-button {
+    margin-left: 9px;
+}
+
+input:focus,
+button:focus {
+    outline: 0;
+}
+
+.list-margin {
+    margin: 20px 0 0 5px;
+}
+
+.list-margin {
+    margin: 30px 0 0 5px;
+}
+
+.todo-item {
+    cursor: pointer;
+}
+
+#todoList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.checkbox {
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+/* Risca os itens com a caixa de seleção selecionada */
+.list-item>input:checked+span {
+    text-decoration: line-through;
+}
