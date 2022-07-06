@@ -18,3 +18,4 @@ const animal1 = {
 };
 
 console.log(ageCalc.apply(animal1, [5]));
+console.log(ageCalc.call(animal1, 5));

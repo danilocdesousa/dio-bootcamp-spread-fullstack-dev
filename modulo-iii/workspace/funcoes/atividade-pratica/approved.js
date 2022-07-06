@@ -16,11 +16,11 @@ const studentsList = [
     }
 ];
 
-function approved(array, media) {
+function approved(array, num) {
     let approved = [];
     for (let i = 0; i < array.length; i++) {
         const { punctuation, studentName } = array[i];
-        if (punctuation >= media) {
+        if (punctuation >= num) {
             approved.push(studentName);
         }
     }

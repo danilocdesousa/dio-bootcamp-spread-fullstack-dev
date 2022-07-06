@@ -53,8 +53,8 @@ Este modelo simples de lista de tarefas é usado para acompanhar o progresso dos
 - [x] Sintaxe e Operadores
 - [x] Variáveis e Tipos
 - [x] Funções
-- [ ] Coleções
-- [ ] Map, Filter e Reduce
+- [x] Coleções
+- [x] Map, Filter e Reduce
 - [ ] Debugging e Error Handling
 - [ ] Javascript Assíncrono
 - [ ] Orientação a objetos
