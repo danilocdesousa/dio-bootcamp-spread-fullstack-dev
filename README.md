@@ -55,7 +55,7 @@ Este modelo simples de lista de tarefas é usado para acompanhar o progresso dos
 - [x] Funções
 - [x] Coleções
 - [x] Map, Filter e Reduce
-- [ ] Debugging e Error Handling
+- [x] Debugging e Error Handling
 - [ ] Javascript Assíncrono
 - [ ] Orientação a objetos
 - [ ] Trabalhando com Módulos em JavaScript
