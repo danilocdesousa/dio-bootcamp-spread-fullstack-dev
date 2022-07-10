@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: cadetblue;
+    color: bisque;
+}
+
+main {
+    text-align: center;
+}
+
+img {
+    height: 300px;
+}
+
+button {
+    border: 0;
+    padding: 20px;
+    background-color: darkslateblue;
+    color: bisque;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: rgb(60, 49, 131);
+}
