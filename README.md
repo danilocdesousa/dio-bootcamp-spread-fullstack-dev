@@ -59,7 +59,7 @@ Este modelo simples de lista de tarefas é usado para acompanhar o progresso dos
 - [x] Javascript Assíncrono
 - [x] Orientação a objetos
 - [x] Trabalhando com Módulos em JavaScript
-- [ ] Manipulando a D.O.M. com JavaScript
+- [x] Manipulando a D.O.M. com JavaScript
 - [ ] Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces
 - [ ] Desafios Iniciais Js - Spread FullStack
 - [ ] Aprenda a criar um sistema de estacionamento usando TypeScript
