@@ -57,7 +57,7 @@ Este modelo simples de lista de tarefas é usado para acompanhar o progresso dos
 - [x] Map, Filter e Reduce
 - [x] Debugging e Error Handling
 - [x] Javascript Assíncrono
-- [ ] Orientação a objetos
+- [x] Orientação a objetos
 - [ ] Trabalhando com Módulos em JavaScript
 - [ ] Manipulando a D.O.M. com JavaScript
 - [ ] Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces
